@@ -1,7 +1,7 @@
 void displayFruitDetails(List<Map> fruits) {
   for (int i = 0; i < fruits.length; i++) {
     print(
-        "Name: ${fruits[i]['name']}, Color: ${fruits[i]['color']}, Price: \$${fruits[i]['price'].toStringAsFixed(2)}");
+        "Name: ${fruits[i]['name']}, Color: ${fruits[i]['color']}, Price: \$${fruits[i]['price']}");
   }
 }
 
